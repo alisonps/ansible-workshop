@@ -1,0 +1,6 @@
+---
+- name: Update brew and installed packages
+  homebrew: update_homebrew=yes upgrade_all=yes
+
+- name: Install vim with homebrew
+  homebrew: name=vim state=latest
