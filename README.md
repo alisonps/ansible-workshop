@@ -1,6 +1,13 @@
-Workspace for Ansible workshop
+#Workspace for Ansible workshop
 
-## To execute
+## Pre-reqs
+- Python 2.6 or 2.7
+- Ansible (which you can install via brew)
+
+## Starting out
+- Fork this repository
+- Below are some sample tasks for practicing your Ansible skills
+- To execute the ansible script, you can run ```ansible-playbook provisioning/site.yml```
 
 ## Tasks
 - Install brew (if not installed already)
